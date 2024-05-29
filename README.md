@@ -1,1 +1,3 @@
 # calculator
+
+Browser-based calculator
