@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;  
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif
 }
-
 
 body {
     margin: 0;
@@ -23,8 +23,12 @@ body {
     padding: 5px;
 }
 
-.screen {
-    flex: 1;
+#calculator #screen {
+    background-color: grey;
+    margin: 5px;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-size: 50px;
 }
 
 .rowTop , .row , .rowBottom {
@@ -33,7 +37,7 @@ body {
     flex-direction: row;
 }
 
-.button {
+.button, #screen {
     flex: 1;
     color: white;
     font-size: 25px;
@@ -44,7 +48,14 @@ body {
     justify-content: center;
 }
 
-.screen {
+.hover {
+    background-color: lightgrey;
+}
+
+.click {
     background-color: grey;
-    margin: 5px;
+}
+
+.enter {
+    flex-basis: 98px;
 }
